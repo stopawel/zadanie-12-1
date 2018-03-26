@@ -11,10 +11,7 @@ function getJoke() {
   });
   xhr.send();
 };
-
 button.addEventListener('click', function(){
   getJoke();
 });
-paragraph.innerHTML = getJoke();
-
-
+paragraph.addEventListener('load', getJoke());
