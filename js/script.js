@@ -10,8 +10,8 @@ function getJoke() {
     paragraph.innerHTML = response.value.joke;
   });
   xhr.send();
-};
+}
 button.addEventListener('click', function(){
   getJoke();
 });
-addEventListener('load', getJoke());
+getJoke();
