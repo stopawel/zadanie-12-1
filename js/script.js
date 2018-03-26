@@ -14,4 +14,4 @@ function getJoke() {
 button.addEventListener('click', function(){
   getJoke();
 });
-paragraph.addEventListener('load', getJoke());
+addEventListener('load', getJoke());
